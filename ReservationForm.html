@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ReservationForm.css">
+</head>
+<body>
+    
+    <form>
+        <div class="container">
+            <h1>Travel Reservation Form</h1>
+            <div class="fullname">
+                <label for="fullname">Full name*:</label> <br>
+                <input type="text" placeholder="Firstname-Lastname" id="fullname">
+            </div>
+            <div class="email">
+                <label for="email">Email Adress*:</label> <br>
+                <input type="email" placeholder="Example01@gmail.com" id="email">
+            </div>
+            <div class="package">
+                <label for="range">Select Tour Package*:</label><br>
+                <select name="package" id="package"><br>
+                    <option value="first-tour">Nakhon Chai Air</option>
+                    <option value="second-tour">rod tour</option>
+                    <option value="third-tour" selected>บขส</option>
+                </select>
+            </div>
+            <div class="arrival">
+                <label for="arrival">Arrival date*:</label><br>
+                <input type="date" placeholder="m/d/y" id="arrival">
+            </div>
+            <div class="person">
+                <label for="person">Number of person*:</label><br>
+                <input type="number" placeholder="how many people" id="person">
+            </div>
+            <div class="checkbox">
+                <label for="checkbox" id="checkbox">What would you want to travel?*</label><br>
+                <input type="checkbox" name="checkbox">Boarding<br>
+                <input type="checkbox" name="checkbox">Fooding<br>
+                <input type="checkbox" name="checkbox">Sight seeing<br>
+            </div>
+            <div class="coupon">
+                <label for="coupon">Discount coupon code*:</label><br>
+                <input type="text" placeholder="Coupon here" id="coupon">
+            </div>
+            <div class="radio">
+                <label for="terms">Terms and Conditions*</label><br>
+                <input type="radio" name="terms">agree
+                <input type="radio" name="terms">disagree
+            </div>
+            <div>
+                <input type="submit" value="Complete reservation">
+            </div>
+        </div> 
+    </form>
+</body>
+</html>
