@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../HTML"
+		},
+		{
+			"path": "../CodeJsd4"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}
