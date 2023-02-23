@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <form>
+        <div>
+            <label for="fullname">Full name*:</label> <br>
+            <input type="text" placeholder="Firstname-Lastname">
+        </div>
+        <div>
+            <label for="email">Email Adress*:</label> <br>
+            <input type="email" placeholder="Example01@gmail.com">
+        </div>
+        <div>
+            <label for="range">Select Tour Package*:</label><br>
+            <select name="Package" id=""><br>
+                <option value="first-tour">Nakhon Chai Air</option>
+                <option value="second-tour">บขส</option>
+                <option value="third-tour" selected>rod tour</option>
+            </select>
+        </div>
+        <div>
+            <label for="arrival">Arrival date*:</label><br>
+            <input type="arrival" placeholder="m/d/y">
+        </div>
+        <div>
+            <label for="person">Number of person*:</label><br>
+            <input type="person" placeholder="how many people">
+        </div>
+        <div>
+            <label for="range">What would you want to travel?*</label><br>
+            <input type="checkbox" name="fav">Boarding<br>
+            <input type="checkbox" name="fav">Fooding<br>
+            <input type="checkbox" name="fav">Sight seeing<br>
+        </div>
+        <div>
+            <label for="coupon">Discount coupon code*:</label><br>
+            <input type="coupon" placeholder="Coupon here">
+        </div>
+        <div>
+            <label for="range">Terms and Conditions*</label><br>
+            <input type="radio" name="terms">agree
+            <input type="radio" name="terms">disagree
+        </div>
+        <div>
+            <input type="submit" value="Complete reservation">
+        </div>
+    </form>
+</body>
+</html>
+
